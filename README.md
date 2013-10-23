@@ -12,7 +12,7 @@ to your project's `composer.json` file:
 ``` javascript
 {
     "require": {
-        "bitzyk/array_column_object": "dev-master"
+        "bitzyk/array_column_object": "~1"
     }
 }
 ```
@@ -27,5 +27,4 @@ This library has no dependencies and should work on older versions of PHP.
 Download the code and include `src/array_column_object.php` in your project, and all
 should work fine.
 
-curu
 
