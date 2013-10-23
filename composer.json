@@ -1,6 +1,6 @@
 {
 	"name": "bitzyk/array_column_object",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Provides the same functionality like array_column(), but reported to an array of objects",
 	"type": "library",
 	"keywords": ["array of objects", "objects", "property", "array_column_object"],
