@@ -27,12 +27,12 @@ if (!function_exists('array_column_object')) {
     function array_column_object($input = null, $propertyKey = null, $indexPropertyKey = null)
     {
 
-        if ( !$input ) {
+        if ( !isset($input) ) {
             trigger_error("array_column_object() expects at least 2 parameters. Parameter 1:`input` was not been provided.", E_USER_WARNING);
             return null;
         }
         
-        if ( !$propertyKey) {
+        if ( !isset($propertyKey)) {
             trigger_error("array_column_object() expects at least 2 parameters. Parameter 2:`columnKey` was not been provided.", E_USER_WARNING);
             return null;
         }
