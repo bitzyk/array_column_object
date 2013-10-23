@@ -1,5 +1,6 @@
 {
 	"name": "bitzyk/array_column_object",
+	"version": "1.0.0"
 	"description": "Provides the same functionality like array_column(), but reported to an array of objects",
 	"type": "library",
 	"keywords": ["array of objects", "objects", "property", "array_column_object"],
@@ -7,7 +8,9 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Cristian Bitoi"			
+			"name": "Cristian Bitoi",
+			"role": "Developer",
+			"email": "bitzyk@yahoo.com"			
 		}
 	],
 	"support": {
@@ -16,5 +19,6 @@
 	"autoload": {
 		"files": ["src/array_column_object.php"]
 	}
+
 
 }
